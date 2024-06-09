@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d5ab6d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.sell-share-form {
+    padding: 20px;
+}
+
+.sell-share-form form {
+    display: grid;
+    gap: 10px;
+}
+
+.sell-share-form label {
+    font-weight: bold;
+    color: #8c1a1a;
+}
+
+.sell-share-form input, .sell-share-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.sell-share-form .upload-box {
+    border: 1px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.sell-share-form button {
+    background-color: #ff5e5e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sell-share-form button:hover {
+    background-color: #e04e4e;
+}

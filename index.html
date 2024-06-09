@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connectr - Sell/Share</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CONNECTR</div>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">SELL</a>
+            <a href="#">SHARE</a>
+            <div class="search-bar">
+                <input type="text" placeholder="SEARCH">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sell-share-form">
+            <form>
+                <label for="title">ADD TITLE :</label>
+                <input type="text" id="title" placeholder="Type here...">
+                
+                <label for="description">DESCRIPTION :</label>
+                <textarea id="description" placeholder="Type here..."></textarea>
+                
+                <label>SELECT CATEGORY :</label>
+                <div>
+                    <input type="radio" id="sell" name="category" value="sell">
+                    <label for="sell">SELL</label>
+                    <input type="radio" id="share" name="category" value="share">
+                    <label for="share">SHARE</label>
+                </div>
+                
+                <label for="price">SET PRICE :</label>
+                <input type="text" id="price" placeholder="Enter here..">
+                
+                <label for="images">UPLOAD IMAGES :</label>
+                <div class="upload-box" id="images">
+                    <input type="file" multiple>
+                </div>
+                
+                <label for="address">ADDRESS :</label>
+                <input type="text" id="address" placeholder="Type here...">
+                
+                <button type="submit">POST</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

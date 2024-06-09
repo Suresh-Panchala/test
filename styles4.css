@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.payments {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.payments h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    background-color: #d2a679;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.order-details, .summary {
+    background-color: #d2a679;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.order-details h3, .summary h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
